@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -11,6 +12,7 @@
     "nuxt": "^3.1.0"
   },
   "dependencies": {
-    "@nuxtjs/sanity": "^1.6.0"
+    "@nuxtjs/sanity": "^1.6.0",
+    "gh-pages": "^5.0.0"
   }
 }
