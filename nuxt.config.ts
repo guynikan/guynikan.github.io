@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   modules: ['@nuxtjs/sanity'],
   sanity: {
-    projectId: process.env.SANITY_BASE_URL,
+    projectId: '9ddsm6c7',
     apiVersion: "2023-01-30"
 
   },
