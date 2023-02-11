@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   },
 
   router: {
-    base: "/nuxt-github-pages/",
+    base: "/guynikan.github.io/",
   },
 
   runtimeConfig: {
